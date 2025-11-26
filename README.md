@@ -15,3 +15,6 @@ Ce dépôt regroupe les codes source en langage **CPP** issus de la chaîne YouT
 11--Enumeratoins  
 12--Fichiers  
 13--Espaces de noms  
+14--Structures  
+15--Attrbuts et Methodes  
+
