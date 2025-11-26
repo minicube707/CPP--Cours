@@ -10,6 +10,7 @@ class Window
     public:
         Window() = default;
         Window(std::string title, int width, int height);
+        void run() const;
 
     private:
         std::string title;
