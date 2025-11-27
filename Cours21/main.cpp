@@ -8,7 +8,6 @@
 */
 
 /*
-    std::array : \
     fill()  : rempli le tableau avec le chiffre donne
     at()    : avoir l'element a l'index donne
     size()  : donne la taille du tableau

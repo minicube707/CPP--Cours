@@ -3,14 +3,12 @@
 #include <stack>
 
 /*
-    std::array : \
     fill()  : rempli le tableau avec le chiffre donne
     at()    : avoir l'element a l'index donne
     size()  : donne la taille du tableau
     empty() : verifie si un tableau est vide
-    front() : retourne le premier element
-    back()  : retourne le dernier element
-    append()    : ajoute le nombre d'occurence a la fin
+    push()  : ajoute un element au debut
+    pop()   : retire l'element du debut
     clear() : vide la chaine
 */
 
@@ -30,5 +28,16 @@ int main()
     std::cout << "Top: " << statck.top() << std::endl;
     statck.pop();
     std::cout << "Top: " << statck.top() << std::endl;
+    statck.pop();
+
+    for (int i = 0; i < 5; i++)
+        statck.push(i);
+    
+    std::cout << "" << std::endl;
+    while (!statck.empty())
+    {
+        std::cout << statck.top() << std::endl;
+        statck.pop();
+    }
     return (0);
 }
