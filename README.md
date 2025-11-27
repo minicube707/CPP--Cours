@@ -27,4 +27,6 @@ Ce dépôt regroupe les codes source en langage **CPP** issus de la chaîne YouT
 23--Listes  
 24--Cartes associatives  
 25--Ensembles  
+26--Iterateurs  
+27--Algorithmes  
 
