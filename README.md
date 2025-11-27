@@ -20,4 +20,8 @@ Ce dépôt regroupe les codes source en langage **CPP** issus de la chaîne YouT
 16--Attrbuts et Methodes  
 17--Encapsulatoin  
 18--Heritage  
+19--Polymorphisme  
+20--Tableaux  
+21--Chaine de caractere  
+22--Piles
 
