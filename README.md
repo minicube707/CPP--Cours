@@ -5,7 +5,7 @@ Ce dépôt regroupe les codes source en langage **CPP** issus de la chaîne YouT
 01--Premier Programme  
 02--Affichage Console  
 03--Variables  
-04--Saisie Utilisateur 	
+04--Saisie Utilisateur 	 
 05--Operation  
 06--Condition  
 07--Boucles  
@@ -16,14 +16,14 @@ Ce dépôt regroupe les codes source en langage **CPP** issus de la chaîne YouT
 12--Fichiers  
 13--Espaces de noms  
 14--Structures  
-15--Classe et Objets 
+15--Classe et Objets  
 16--Attrbuts et Methodes  
 17--Encapsulatoin  
 18--Heritage  
 19--Polymorphisme  
 20--Tableaux  
 21--Chaine de caractere  
-22--Piles
+22--Piles  
 23--Listes  
 24--Cartes associatives  
 25--Ensembles  
