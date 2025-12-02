@@ -31,4 +31,5 @@ Ce dépôt regroupe les codes source en langage **CPP** issus de la chaîne YouT
 27--Algorithmes  
 28--Genericite  
 29--Surcharge d'operateur   
+30--Pointeur  
 
