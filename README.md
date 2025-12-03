@@ -32,4 +32,6 @@ Ce dépôt regroupe les codes source en langage **CPP** issus de la chaîne YouT
 28--Genericite  
 29--Surcharge d'operateur   
 30--Pointeur  
-
+31--Dates et temps  
+32--Threads  
+33--Promesses et futures  
