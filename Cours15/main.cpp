@@ -7,6 +7,11 @@
     class   : donnes privees (par defaut)
 
     Niveaux d'acces : public, private, protected
+    
+    En C++, il existe trois spécificateurs d'accès :
+        - public : les membres sont accessibles depuis l'extérieur de la classe.
+        - private : les membres ne sont pas accessibles (ou visibles) depuis l'extérieur de la classe.
+        - protected : les membres ne sont pas accessibles depuis l'extérieur de la classe, mais le sont depuis les classes héritées. Vous en apprendrez davantage sur l'héritage plus tard.
 */
 
 struct Point
