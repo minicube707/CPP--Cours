@@ -13,7 +13,7 @@
 
 int main()
 {
-    //Ecriture
+    //Lecture
     std::fstream f("txt.txt"); //std::ios::in
 
     if (!f.is_open())
@@ -32,7 +32,7 @@ int main()
 
     f.close();
 
-    //Lecture
+    //Ecriture
     std::ofstream w("data.txt"); //std::ios::out
     if (w.is_open())
     {
