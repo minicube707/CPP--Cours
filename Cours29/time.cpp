@@ -20,6 +20,8 @@ namespace jc
         return time{hours + other.hours, minutes + other.minutes, secondes + other.secondes};
     }
 
+    // Cette fonction a accès aux attributs privés de time (hours, minutes, secondes)
+    // car elle a été déclarée comme friend dans la classe time.
     time operator+(const time& t, int i)
     {
         return time{t.hours, t.minutes, t.secondes + i};

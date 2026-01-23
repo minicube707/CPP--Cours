@@ -4,7 +4,9 @@
 
     #include <ostream>
 
-    // <type_retour> operatorX(...)
+    // Syntaxe générale pour surcharger un opérateur en C++ :
+    // <type_de_retour> operator<opérateur>(paramètres)
+    // Exemple : time operator+(const time& t, int sec);
     
     namespace jc
     {
@@ -19,7 +21,8 @@
                 std::size_t minutes;
                 std::size_t secondes;
 
-            friend std::ostream& operator <<(std::ostream& os, const time& t);
+            //friend permet à une fonction ou à une autre classe d’accéder aux membres privés et protégés d’une classe.
+            friend std::ostream& operator<<(std::ostream& os, const time& t);
 
             friend time operator+(const time& t, int sec); // time + int
             friend time operator+(int sec, const time& t); // int + time
