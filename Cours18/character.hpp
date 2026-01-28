@@ -5,9 +5,12 @@
 # include <string>
 # include "unit.hpp"
 
+//Character hérite de Unit
+//Tout ce qui est public et protected dans Unit reste accessible dans Character
 class Character : public Unit
 {
-    
+    //Elle sert à hériter des constructeurs de la classe mère.
+    //Tous les constructeurs publics de Unit sont disponibles dans Character
     using Unit::Unit;
     
     public:
