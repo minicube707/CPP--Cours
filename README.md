@@ -17,7 +17,7 @@ Ce dépôt regroupe les codes source en langage **CPP** issus de la chaîne YouT
 13--Espaces de noms  
 14--Structures  
 15--Classe et Objets  
-16--Attrbuts et Methodes  
+16--Attributs et Methodes  
 17--Encapsulatoin  
 18--Heritage  
 19--Polymorphisme  
